@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="18sp"
+        android:background="@mipmap/ic_launcher_round"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btn_example1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_blue_selector"
+        android:onClick="onClick"
+        android:text="Example 1"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_example2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_blue_selector"
+        android:onClick="onClick"
+        android:text="Example 2"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_example3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_blue_selector"
+        android:onClick="onClick"
+        android:text="Example 3"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_example4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_blue_selector"
+        android:onClick="onClick"
+        android:text="Example 4"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>
